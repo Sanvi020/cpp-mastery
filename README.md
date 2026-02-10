@@ -1,4 +1,4 @@
 # cpp-mastery
-Collection of C++ projects and DSA practice problems.
+Collection of C++ projects and Problems.
 <br>
 Author- Sanvi Yadav
