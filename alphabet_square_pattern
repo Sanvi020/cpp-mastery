@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+//  Alphabet Square pattern 
+
+int main()
+{
+    int n = 4;
+    for(int i = 1; i<=n ; i++){
+        char ch = 'A';          // Every line is starting with character A .. so intializing inside loop
+        for(int j = 1; j<=n;j++){
+            cout << ch;
+            ch++;
+        }
+        cout<< endl;
+    }
+}
