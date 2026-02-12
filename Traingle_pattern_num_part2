@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+//  Triangle pattern with numbers with same digit on every line
+
+int main()
+{
+    int n = 4;
+    for(int i =0 ; i<n ; i++){
+        int num = 1;        // Intializing here cuz every line starts with 1
+        for(int j = 0; j<i+1 ; j++){
+            cout << num ;
+            num++;
+        }
+        cout << endl;
+    }
+}
