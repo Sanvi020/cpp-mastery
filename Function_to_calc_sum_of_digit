@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+// Function to calculate sum of digit
+
+int sum_digit(int n){
+    int digitsum = 0;
+    while(n>0){
+        int digit = n%10;
+        n = n/10;
+        digitsum += digit;
+    }
+    cout << "The sum of digit of num n is : "<< digitsum;
+}
+
+int main()
+{
+    sum_digit(145);
+}
