@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+// Function to calculate min of two numbers 
+int min(int a , int b){
+    if(a>b){
+        return b;
+    }
+    else{
+        return a;
+    }
+}
+
+int main()
+{
+    cout << "The minimum of two numbers is : "<< min(99,100);
+}
